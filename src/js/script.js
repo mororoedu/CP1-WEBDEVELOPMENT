@@ -38,3 +38,9 @@ for(let numero = 1; numero <= 10; numero ++){
 
 let avengers = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
 console.log(avengers);
+
+// EXERCÍCIO 5 #################################################
+
+let idadeUsuario = 19;
+let permissao = idadeUsuario >= 18 ? "Permitido" : "Não permitido";
+console.log(permissao);
