@@ -1,15 +1,17 @@
-// EXERCÍCIO 1 #################################################
+console.log("************************************************");
+console.log("EXERCÍCIO 1");
+console.log("************************************************");
 
 let a = 20
 let b = 10
-
-console.log("Exercício 1");
 
 console.log(a != b); // Sinal de diferença
 console.log(a === b); // Sinal de igual em valor e tipo
 console.log(a >= b); // Sinal de maior ou igual
 
-// EXERCÍCIO 2 #################################################
+console.log("************************************************");
+console.log("EXERCÍCIO 2");
+console.log("************************************************");
 
 let peso = 80;
 let altura = 1.80;
@@ -28,18 +30,24 @@ else{
     console.log("Acima do peso");
 }
 
-// EXERCÍCIO 3 #################################################
+console.log("************************************************");
+console.log("EXERCÍCIO 3");
+console.log("************************************************");
 
 for(let numero = 1; numero <= 10; numero ++){
     console.log(`Contagem de números ${numero}`)
 }
 
-// EXERCÍCIO 4 #################################################
+console.log("************************************************");
+console.log("EXERCÍCIO 4");
+console.log("************************************************");
 
 let avengers = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
 console.log(avengers);
 
-// EXERCÍCIO 5 #################################################
+console.log("************************************************");
+console.log("EXERCÍCIO 5");
+console.log("************************************************");
 
 let idadeUsuario = 19;
 let permissao = idadeUsuario >= 18 ? "Permitido" : "Não permitido";
