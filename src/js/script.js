@@ -27,3 +27,9 @@ else if(imc >= 18.5 && imc <= 24.9){
 else{
     console.log("Acima do peso");
 }
+
+// EXERCÍCIO 3 #################################################
+
+for(let numero = 1; numero <= 10; numero ++){
+    console.log(`Contagem de números ${numero}`)
+}
