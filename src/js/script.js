@@ -33,3 +33,8 @@ else{
 for(let numero = 1; numero <= 10; numero ++){
     console.log(`Contagem de números ${numero}`)
 }
+
+// EXERCÍCIO 4 #################################################
+
+let avengers = ["Thor", "Hulk", "Capitão América", "Arqueiro", "Viúva Negra"];
+console.log(avengers);
