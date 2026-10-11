@@ -1,4 +1,6 @@
 Integrantes:
 
-Eduardo Miranda Mororo
-Henrique Nascimento
+Eduardo Miranda Mororo - RM: 575543
+Henrique Nascimento - RM: 576619
+
+https://github.com/mororoedu/CP1-WEBDEVELOPMENT
