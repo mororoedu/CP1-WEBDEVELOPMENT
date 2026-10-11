@@ -78,12 +78,12 @@ let nota1= 7;
 let nota2= 8;
 let nota3= 6;
 let nota4= 5;
-let nota5= 6;
+let nota5= 9;
 let nota6= 7;
 let nota7= 8;
 
 let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7
-console.log("Média: ", media);
+console.log("Média: ", media.toFixed(2)); /* Conteúdo pesquisado (.toFixed) */
 
 if (media >= 6){
     console.log("Aluno aprovado!");
@@ -97,6 +97,17 @@ else{
 console.log("************************************************");
 console.log("EXERCÍCIO 8");
 console.log("************************************************");
+
+let nome = "Dev";
+console.log(`Olá ${nome}`);
+
+console.log("************************************************");
+console.log("EXERCÍCIO 9");
+console.log("************************************************");
+
+
+
+
 
 
 
