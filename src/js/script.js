@@ -60,8 +60,8 @@ console.log("************************************************");
 let nomeUsuario = "admin";
 let senha = "1234";
 
-let nomeInserido = "admin";
-let senhaInserida = "1234";
+let nomeInserido = prompt("Insira o usuário: ");
+let senhaInserida = prompt("Digite sua senha: ");
 
 if(nomeInserido === nomeUsuario && senhaInserida === senha){
     console.log("Login efetuado com sucesso!");
@@ -74,13 +74,14 @@ console.log("************************************************");
 console.log("EXERCÍCIO 7");
 console.log("************************************************");
 
-let nota1= 7;
-let nota2= 8;
-let nota3= 6;
-let nota4= 5;
-let nota5= 9;
-let nota6= 7;
-let nota7= 8;
+let nota1= Number(prompt("Digite a primeira nota: "));
+let nota2= Number(prompt("Digite a segunda nota: "));
+let nota3= Number(prompt("Digite a terceira nota: "));
+let nota4= Number(prompt("Digite a quarta nota: "));
+let nota5= Number(prompt("Digite a quinta nota: "));
+let nota6= Number(prompt("Digite a sexta nota: "));
+let nota7= Number(prompt("Digite a sétima nota: "));
+
 
 let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7
 console.log("Média: ", media.toFixed(2)); /* Conteúdo pesquisado (.toFixed) */
@@ -98,12 +99,10 @@ console.log("************************************************");
 console.log("EXERCÍCIO 8");
 console.log("************************************************");
 
-let nome = "Dev";
+let nome = prompt("Digite seu nome:");
 console.log(`Olá ${nome}`);
 
-console.log("************************************************");
-console.log("EXERCÍCIO 9");
-console.log("************************************************");
+
 
 
 
