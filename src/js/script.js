@@ -82,7 +82,7 @@ let nota5= 6;
 let nota6= 7;
 let nota7= 8;
 
-let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7)
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7
 console.log("Média: ", media);
 
 if (media >= 6){
@@ -93,3 +93,11 @@ else{
     console.log("Aluno reprovado.");
 
 }
+
+console.log("************************************************");
+console.log("EXERCÍCIO 8");
+console.log("************************************************");
+
+
+
+
