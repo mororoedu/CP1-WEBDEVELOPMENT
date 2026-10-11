@@ -52,3 +52,44 @@ console.log("************************************************");
 let idadeUsuario = 19;
 let permissao = idadeUsuario >= 18 ? "Permitido" : "Não permitido";
 console.log(permissao);
+
+console.log("************************************************");
+console.log("EXERCÍCIO 6");
+console.log("************************************************");
+
+let nomeUsuario = "admin";
+let senha = "1234";
+
+let nomeInserido = "admin";
+let senhaInserida = "1234";
+
+if(nomeInserido === nomeUsuario && senhaInserida === senha){
+    console.log("Login efetuado com sucesso!");
+}
+else{
+    console.log("Falha ao efetuar login.");
+}
+
+console.log("************************************************");
+console.log("EXERCÍCIO 7");
+console.log("************************************************");
+
+let nota1= 7;
+let nota2= 8;
+let nota3= 6;
+let nota4= 5;
+let nota5= 6;
+let nota6= 7;
+let nota7= 8;
+
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7)
+console.log("Média: ", media);
+
+if (media >= 6){
+    console.log("Aluno aprovado!");
+
+}
+else{
+    console.log("Aluno reprovado.");
+
+}
