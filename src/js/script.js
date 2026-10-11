@@ -102,6 +102,43 @@ console.log("************************************************");
 let nome = prompt("Digite seu nome:");
 console.log(`Olá ${nome}`);
 
+console.log("************************************************");
+console.log("EXERCÍCIO 9");
+console.log("************************************************");
+
+let senhaAtual = "1234";
+
+let senhaInserida2 = prompt("Digite sua senha atual: " );
+let novaSenha = prompt("Digite sua nova senha:");
+
+if(senhaInserida2 === senhaAtual){
+    if(novaSenha !== senhaAtual){
+        senhaAtual = novaSenha;
+        console.log("Senha alterada com sucesso! ")
+    }
+    else{
+        console.log("A nova senha deve ser diferente da atual. ");
+    }
+}
+else{
+    console.log("Senha atual incorreta. ");
+}
+
+
+console.log("************************************************");
+console.log("EXERCÍCIO 10");
+console.log("************************************************");
+
+let valorProduto = Number(prompt("Digite o valor do produto: "));
+let valorDesconto = Number(prompt("Digite o valor do desconto (R$): "))
+
+let valorFinal = valorProduto - valorDesconto;
+
+console.log("Valor do produto: R$", valorProduto);
+console.log("Valor do desconto: R$", valorDesconto);
+console.log("VALOR FINAL: R$", valorFinal);
+
+
 
 
 
